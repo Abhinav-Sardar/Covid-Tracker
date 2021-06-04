@@ -17,7 +17,7 @@ const CountrySelector = () => {
     
     return (
         <div className = "selector">
-            <h3>Choose country to view stats</h3><br />
+            <h3>Select country to view stats</h3>
             <select value = {currentLoacation} onChange = {(e) => setCurrentLocation(e.target.value)}>
                 <option value="Global" default>Global</option>
                 {countries && countries.map((country , index) => {
