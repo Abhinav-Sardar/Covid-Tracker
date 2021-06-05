@@ -23,7 +23,7 @@ const BarChart = () => {
             {data && <React.Fragment>
                 <Bar
                 data = {{
-                    labels:["Total Cases" , "Recovered" , "Death"],
+                    labels:["Total Cases" , "Recovered" , "Deaths"],
                     datasets:[
                         {
                             label:currentLocation , 
